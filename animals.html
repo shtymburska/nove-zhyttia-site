@@ -1,0 +1,112 @@
+<!-- animals.html -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тварини — Нове життя</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="images/icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    main {
+      padding: 20px;
+    }
+    .about-info {
+      background-color: rgba(255, 255, 255, 0.7);
+      padding: 20px 30px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .about-info h2 {
+      margin-bottom: 15px;
+      text-indent: 20px;
+    }
+    .about-info p{
+      text-indent: 20px;
+      text-align: justify;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: rgba(248, 248, 248, 0.5);
+    }
+
+    .animal-section {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      margin: 40px auto;
+      max-width: 800px;
+      flex-wrap: wrap;
+    }
+
+    .animal-card {
+      background-color: white;
+      border-radius: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      transition: transform 0.3s;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .animal-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    }
+
+    .animal-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .animal-card h3 {
+      margin: 15px 0 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.jpg" alt="Лого притулку Нове життя">
+      </a>
+      <h1>Нове життя</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="animals.html">Тварини</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="help.html">Допомога</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="animal-section">
+      <a href="cats.html" class="animal-card">
+        <img src="images/cats-preview.jpg" alt="Коти">
+        <h3>Кішки</h3>
+      </a>
+      <a href="dogs.html" class="animal-card">
+        <img src="images/dogs-preview.jpg" alt="Собаки">
+        <h3>Собаки</h3>
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Притулок "Нове життя"</p>
+  </footer>
+</body>
+</html>

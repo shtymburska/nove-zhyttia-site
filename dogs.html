@@ -1,0 +1,112 @@
+<!-- dogs.html -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Собаки — Нове життя</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/x-icon" href="images/icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    .dogs-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .dog-card {
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .dog-card img {
+      /* width: 100%; */
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .dog-card h3 {
+      font-size: 1.5rem;
+      margin: 10px 0;
+    }
+
+    .dog-card p {
+      font-size: 1rem;
+      color: #666;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: rgba(248, 248, 248, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/logo.jpg" alt="Лого притулку Нове життя">
+      </a>
+      <h1>Нове життя</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="animals.html">Тварини</a></li>
+        <li><a href="about.html">Про нас</a></li>
+        <li><a href="help.html">Допомога</a></li>
+        <li><a href="contacts.html">Контакти</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+    <main>
+
+    <h2 style="text-align: center; margin: 20px 0;">Наші песики</h2>
+    
+    <div class="dogs-container">
+      <!-- Картка собаки 1 -->
+      <div class="dog-card">
+        <img src="images/dog.png" alt="Собака 1">
+        <h3>Эльза</h3>
+        <p>Вік: _____</p>
+        <!-- <p>Дуже грайлива і любить компанію. Вона шукає активних господарів, готових до веселих пригод.</p>
+        <p><strong>Контакт:</strong> +380 (050) 393 77 37</p> -->
+      </div>
+
+      <!-- Картка собаки 2 -->
+      <div class="dog-card">
+        <img src="images/dog.png" alt="Собака 2">
+        <h3>Джонік</h3>
+        <p>Вік: _____</p>
+        <!-- <p>Спокійний та любить затишок. Він стане чудовим другом для тих, хто любить та ціную вірних чотирьохлапих друзів.</p>
+        <p><strong>Контакт:</strong> +380 (050) 393 77 37</p> -->
+      </div>
+
+      <!-- Картка собаки 3 -->
+      <div class="dog-card">
+        <img src="images/dog.png" alt="Собака 3">
+        <h3>Джуля</h3>
+        <p>Вік: _____</p>
+        <!-- <p>Дуже дружелюбна і любить дітей. Вона шукає родину, де її обожнюватимуть та піклуватимуться про неї.</p>
+        <p><strong>Контакт:</strong> +380 (050) 393 77 37</p> -->
+      </div>
+    </div>
+  </main>
+
+
+  <footer>
+    <p>&copy; 2025 Притулок "Нове життя"</p>
+  </footer>
+</body>
+</html>
