@@ -111,7 +111,8 @@ document.addEventListener('DOMContentLoaded', () => {
     snowflake.style.left = Math.random() * 100 + "vw";
 
     // Opacity
-    snowflake.style.opacity = Math.random();
+    snowflake.style.opacity = Math.random() * 0.35 + 0.65;
+
 
     // Speed settings
     let minDuration = 18;
@@ -173,3 +174,4 @@ document.addEventListener('DOMContentLoaded', () => {
   startSnow();
 
 })();
+
